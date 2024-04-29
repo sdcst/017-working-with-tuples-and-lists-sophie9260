@@ -24,4 +24,8 @@ The animal at that index is Dog
 
 
 
-animals =
+animals = ["Bear", "Cat", "Dog", "Fish", "Turtle"]
+
+n = input("Enter an integer number between 0 and 4 => ")
+n = int(n)
+print(animals[n])

@@ -7,7 +7,12 @@ myList.count(element)  will count the number of times that a specific element ap
 myList.sort()          will sort a list by numerical or alphabetical order.  It updates the current list
 """
 print("\n\n=== Miscellaneous tuple/list commands")
-myList = ["Delta", "Echo", "Foxtrot","Alpha", "Golf", "Baker", "Charlie"]
+myList = ["Delta", "Echo", "Foxtrot","Alpha","Alpha", "Golf", "Baker", "Charlie"]
+x =myList.count("Alpha")
+print(x)
+exit()
+
+
 print(myList)
 print("Sorting the list using the command myList.sort()")
 myList.sort()
